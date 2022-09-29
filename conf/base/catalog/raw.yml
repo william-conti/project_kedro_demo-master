@@ -1,0 +1,7 @@
+raw_diagnosis:
+  layer: cohort
+  type: spark.SparkDataSet
+  file_format: parquet
+  save_args:
+    mode: overwrite
+  filepath: ${vendor_lookups}/Medical/

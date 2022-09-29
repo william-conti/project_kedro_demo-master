@@ -1,0 +1,7 @@
+default:
+  pipelines:
+    - dummy_pipeline
+
+dummy_pipeline:
+  nodes:
+    - dummy_node
